@@ -1,0 +1,72 @@
+body { 
+    margin: 50px; 
+}
+.wrt {
+    align-items: center;
+}
+#flat {
+    float: left;
+    width: 400px;
+}
+#vertex {
+    float: left;
+    width: 400px;
+}
+#frag {
+    float: left;
+    width: 400px;
+}
+#assn2 {
+    border: none;
+}
+/* Container for the sliders */
+.slider-class {
+    width: 300px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the labels */
+.slider-class b {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Style for the sliders */
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.8;
+    transition: opacity .2s;
+    margin-bottom: 20px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1;
+}
+
+/* Style for the slider thumb (handle) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 50%;
+}
